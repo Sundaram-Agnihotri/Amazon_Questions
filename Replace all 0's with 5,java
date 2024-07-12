@@ -1,0 +1,11 @@
+Question : Replace all 0's with 5
+
+class GfG {
+    int convertfive(int n) {
+        // Your code here
+        String num = Integer.toString(n);
+        num = num.replace('0','5');
+        n = Integer.parseInt(num);
+        return n;
+    }
+}
